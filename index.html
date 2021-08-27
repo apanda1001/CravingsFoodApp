@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cravings....</title>
+    <link rel = "stylesheet" href = "Cravings css.css">
+</head>
+<body>
+    <h1 class = "title">
+        Cravings....
+    </h1>
+    <h2 class = "subtitle">
+        NOTE: Only for Hardcore Foodies
+    </h2>
+    <h2 class = "heading-theme">
+        Introduction
+    </h2>
+    <p>
+        Hello there!
+        Welcome to Cravings! This is a simple web application for foodies (like me!) 
+        who get a craving to eat something new before every meal!
+    </p>
+    <h2 class = "heading-theme">
+        What exactly does it do?
+    </h2>
+    <p>
+        I have always struggled to figure out what I want for lunch or dinner, since my mind seems to be unable to think of more than a few combinations, and before every meal, I crave for something new. I am sure there are many more like me. This webpage will suggest combinations of common Indian dishes to all of them.
+        <br>
+        Basically, after you click that magic button you see below the text,
+        some code helps the web application pick a combination of random dishes from three
+        different arrays for dals, subzis and rotis and rice, each containing the list of common
+        dals, subzis and rotis and rice respectively. The combo shall be displayed on the webpage, and 
+        you can figure out what you want for lunch or dinner!
+    </p>
+    <br><br>
+    <br><br>
+    
+    <div>
+        <button class="btn1" onclick = cravingFunc()>Click Me!</button>
+      </div>
+      <p id="demo" class = "output"></p>
+    <script src="Cravings javascript.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+   <h2 class = "heading-theme">
+       Add on!
+   </h2>
+   <form>
+       Enter your favourite dish here:
+       <input type="text" id = "addADish">
+       <br>
+   </form>
+   <br>
+   <label for="dishTypes">Choose the dish type:</label>
+    <select name="dishTypes" id="selectedType">
+        <option value="dals">Dals</option>
+        <option value="subzis">Subzis</option>
+        <option value="rotisOrRice">Roti or Rice</option>
+        <option value="misc">Miscellaneous</option>
+    </select>
+
+    <div>
+        <button class="btn2" onclick = addDish(addADish,selectedType)>Add!</button>
+    </div>
+    <div id="added" class = "output"></div>
+    <p>
+        <br>
+        <br>
+        Webpage by Anushka Panda, 200174. ©
+    </p>
+    
+</body>
+</html>

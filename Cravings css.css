@@ -1,0 +1,66 @@
+body {
+    font-family: 'Baskerville old face', monospace;
+    font-size: 25px;
+}
+
+
+.heading-theme {
+    color: #3b7505;
+    background: #e3ff96;
+}
+.btn1 {
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #3b7505;
+    border: 30 px;
+    color: #e3ff96;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.output {
+    color: green;
+    background-color: white;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity: initial;
+}
+.title {
+    font-family: 'Impact';
+    font-size: 80px;
+    color: rgb(0, 77, 0)
+}
+.subtitle {
+    font-family: 'Bradley Hand ITC';
+    font-size: 18px;
+    color:rgb(41, 192, 41);
+}
+.btn2 {
+    position: absolute;
+    top: 870px;
+    left: 515px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: #3b7505;
+    border: 30 px;
+    color: #e3ff96;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
